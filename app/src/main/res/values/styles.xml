@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Whereis" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">@drawable/selectable_background_whereis</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Whereis</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Whereis</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_whereis</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_whereis</item>
+
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="ActionBar.Solid.Whereis" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@drawable/ab_solid_whereis</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_whereis</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_whereis</item>
+        <item name="titleTextStyle">@style/ActionBar.Solid.Whereis.TitleText</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Whereis" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="background">@drawable/ab_transparent_whereis</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Whereis" parent="@style/Widget.AppCompat.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_whereis</item>
+    </style>
+
+    <style name="ActionBar.Solid.Whereis.TitleText"
+        parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

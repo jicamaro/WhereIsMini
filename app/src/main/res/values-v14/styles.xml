@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="Theme.Whereis" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_whereis</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Whereis</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Whereis</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_whereis</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_whereis</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="ActionBar.Solid.Whereis" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_whereis</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_whereis</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_whereis</item>
+        <item name="android:titleTextStyle">@style/ActionBar.Solid.Whereis.TitleText</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Whereis" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_whereis</item>
+    </style>
+
+</resources>

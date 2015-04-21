@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/styles.xml -->
+<resources>
+    <style name="Theme.Whereis" parent="Theme.AppCompat.Light">
+        <item name="android:colorPrimary">@color/orange</item>
+        <item name="android:colorAccent">@color/orange</item>
+        <item name="android:colorPrimaryDark">@color/darkorange</item>
+        <item name="android:statusBarColor">@color/darkorange</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dónde está el mini?</string>
+    <string name="app_version">v1.0</string>
+    <string name="dialog_loading_text">Cargando datos…</string>
+    <string name="dialog_error_text">No se pudieron obtener los datos. Por favor intente de nuevo.</string>
+    <string name="title_header_one">Buses</string>
+    <string name="title_header_two">Paraderos</string>
+    <string name="title_header_three">Horario</string>
+    <string name="title_header_four">Información</string>
+    <string name="title_detail_one">Minibus</string>
+    <string name="title_detail_two">Apoyo</string>
+    <string name="title_detail_three">Paraderos</string>
+    <string name="title_detail_four">Horario</string>
+    <string name="title_detail_five">Noticias</string>
+    <string name="title_detail_six">Ayuda</string>
+    <string name="title_detail_seven">Sobre la aplicación</string>
+    <string name="status_minibus_no">No operativo</string>
+    <string name="status_minibus_driving">En recorrido</string>
+    <string name="status_minibus_stopped">Detenido</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="about_app_developer">Jaime Campano</string>
+    <string name="about_tracker_developer1">Felipe Astroza</string>
+    <string name="about_tracker_developer2">Fernando Torres</string>
+    <string name="about_tracker_developer3">Alex Muñoz</string>
+    <string name="about_paragraph_one">Desarrollador de la aplicación</string>
+    <string name="about_paragraph_two">Desarrolladores LNITracker</string>
+    <string name="help_title_bus">Buses</string>
+    <string name="help_title_stops">Paraderos</string>
+    <string name="help_title_forward">Adelante</string>
+    <string name="help_paragraph_bus">        En esta sección se pueden obtener la localización geográfica de los buses de acercamiento de la Universidad.
+        En este momento sólo el minibus de la facultad se encuentra operativo. En una segunda instancia, se incorporarán los buses de apoyo.</string>
+    <string name="help_paragraph_stops">        En esta sección se encuentra la localización geográfica de los distintos paraderos a lo largo
+        de Curicó. Además, si se logra determinar tu ubicación, se destaca el paradero más cercano considerando donde te encuentras.
+        La ubicación cual es determinada por GPS en primera instancia, si esta no se puede establecer se ocupa la triangulación de redes.</string>
+    <string name="help_paragraph_forward">        Por último, se está implementando la predicción del tiempo de llegada del bus al paradero más cercano a tu ubicación.
+        A futuro se verá funcionando esta característica.</string>
+    <string name="schedule_title_first">Minibus</string>
+    <string name="schedule_title_from">Desde Universidad</string>
+    <string name="schedule_title_to">A Universidad</string>
+    <string name="schedule_title_second">Apoyo</string>
+
+    <string-array name="schedule_minibus_from_university">
+        <item>08:10 - Carretera</item>
+        <item>08:20 - Carretera</item>
+        <item>08:30 - Carretera</item>
+        <item>08:40 - Carretera</item>
+        <item>09:10 - Carretera</item>
+        <item>09:20 - Carretera</item>
+        <item>09:35 - Carretera</item>
+        <item>09:40 - Curicó</item>
+        <item>10:10 - Curicó</item>
+        <item>10:40 - Curicó</item>
+        <item>11:10 - Curicó</item>
+        <item>11:40 - Curicó</item>
+        <item>12:10 - Curicó</item>
+        <item>12:40 - Curicó</item>
+        <item>14:35 - Curicó</item>
+        <item>15:05 - Curicó</item>
+        <item>15:35 - Curicó</item>
+        <item>16:05 - Curicó</item>
+        <item>16:35 - Curicó</item>
+        <item>17:05 - Curicó</item>
+        <item>17:35 - Curicó</item>
+        <item>18:05 - Curicó</item>
+    </string-array>
+    <string-array name="schedule_minibus_to_university">
+        <item>08:15 - Carretera</item>
+        <item>08:25 - Carretera</item>
+        <item>08:35 - Carretera</item>
+        <item>08:45 - Carretera</item>
+        <item>09:15 - Carretera</item>
+        <item>09:25 - Carretera</item>
+        <item>09:40 - Carretera</item>
+        <item>10:00 - Curicó</item>
+        <item>10:30 - Curicó</item>
+        <item>11:00 - Curicó</item>
+        <item>11:30 - Curicó</item>
+        <item>12:00 - Curicó</item>
+        <item>12:30 - Curicó</item>
+        <item>13:00 - Retirada</item>
+        <item>14:55 - Curicó</item>
+        <item>15:25 - Curicó</item>
+        <item>15:55 - Curicó</item>
+        <item>16:25 - Curicó</item>
+        <item>16:55 - Curicó</item>
+        <item>17:25 - Curicó</item>
+        <item>17:55 - Curicó</item>
+        <item>18:30 - Retirada</item>
+    </string-array>
+    <string-array name="schedule_support_from_university">
+        <item>08:00 - Apoyo 1</item>
+        <item>08:10 - Apoyo 2</item>
+        <item>09:05 - Apoyo 2</item>
+        <item>09:10 - Apoyo 2</item>
+        <item>13:05 - Apoyo 1</item>
+        <item>13:30 - Apoyo 1</item>
+        <item>13:55 - Apoyo 1</item>
+        <item>17:45 - Apoyo 1</item>
+        <item>18:10 - Apoyo 2</item>
+        <item>18:30 - Apoyo 1</item>
+        <item>19:05 - Apoyo 1</item>
+        <item>19:35 - Apoyo 1</item>
+        <item>20:05 - Apoyo 1</item>
+        <item>20:35 - Apoyo 1</item>
+        <item>21:10 - Apoyo 1</item>
+    </string-array>
+    <string-array name="schedule_support_to_university">
+        <item>08:20 - Curicó</item>
+        <item>08:30 - Curicó</item>
+        <item>09:30 - Curicó</item>
+        <item>09:35 - Curicó</item>
+        <item>13:25 - Curicó</item>
+        <item>13:50 - Curicó</item>
+        <item>14:15 - Curicó</item>
+        <item>18:10 - Curicó</item>
+        <item>18:30 - Curicó</item>
+        <item>19:00 - Curicó</item>
+        <item>19:30 - Curicó</item>
+        <item>20:00 - Curicó</item>
+        <item>20:30 - Curicó</item>
+        <item>21:00 - Retirada</item>
+    </string-array>
+
+</resources>

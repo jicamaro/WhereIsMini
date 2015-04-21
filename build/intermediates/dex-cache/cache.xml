@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Jaime\AndroidStudioProjects\WhereIsMini\app\build\intermediates\pre-dexed\debug\classes-597445b2c0ed3d4aeef7dc4795825896c5257733.jar"
+        jar="C:\Users\Jaime\AndroidStudioProjects\WhereIsMini\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0-rc1\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f43ddb172b0a91aa546a2aec7e6aad71c935d036"/>
+    <item
+        dex="C:\Users\Jaime\AndroidStudioProjects\WhereIsMini\app\build\intermediates\pre-dexed\debug\classes-e46199a108be5908273314d1c8374880493351d0.jar"
+        jar="C:\Users\Jaime\AndroidStudioProjects\WhereIsMini\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0-rc1\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7ae84435ebc95f67a3f5e511025e96caa8688da2"/>
+    <item
+        dex="C:\Users\Jaime\AndroidStudioProjects\WhereIsMini\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-rc1-63cb93aaf78cda90f4122442b9a05c81f242a6e5.jar"
+        jar="C:\Users\Jaime\AndroidStudioProjects\WhereIsMini\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0-rc1\libs\internal_impl-21.0.0-rc1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d1a625e8a94bf7c73e0f9d30ad1b483ff6ea64e9"/>
+    <item
+        dex="C:\Users\Jaime\AndroidStudioProjects\WhereIsMini\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.4-db7fd9cecbe4e289559375b9932aafd5420f6d30.jar"
+        jar="C:\Users\Jaime\AndroidStudioProjects\WhereIsMini\app\libs\android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c"/>
+    <item
+        dex="C:\Users\Jaime\AndroidStudioProjects\WhereIsMini\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-rc1-d5154e7a565a72daa5b191a77255343b28286453.jar"
+        jar="C:\Users\Jaime\AppData\Local\Android\android-studio1\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0-rc1\support-annotations-21.0.0-rc1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="57c343f05b73b923bf2502b05851dbfe12193dcb"/>
+    <item
+        dex="C:\Users\Jaime\AndroidStudioProjects\WhereIsMini\app\build\intermediates\pre-dexed\debug\classes-153608183f5ea180e59b0f5a1b6d4312ef58cba3.jar"
+        jar="C:\Users\Jaime\AndroidStudioProjects\WhereIsMini\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.4.52\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059"/>
+
+</pre-dex-items>

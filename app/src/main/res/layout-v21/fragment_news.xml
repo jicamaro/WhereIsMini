@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffe5e5e5" android:padding="5dp">
+
+    <RelativeLayout
+        android:id="@+id/non_news_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_smiley"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_centerInParent="true"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:text="!Enhorabuena! Ya no tienes más noticias que leer."
+            android:textColor="#ff777777"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/imageView" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/news_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="3dp"
+        android:overScrollMode="never"
+        android:visibility="gone"/>
+
+</RelativeLayout>
